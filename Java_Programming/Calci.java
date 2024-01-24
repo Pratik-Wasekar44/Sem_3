@@ -25,5 +25,10 @@ public class Calci{
         return (a % b);
     }
 
+    //function to divide two numbers
+    public static int div(int a, int b){
+        return (a / b);
+    }
+
 
 }
