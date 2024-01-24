@@ -19,4 +19,11 @@ public class Calci{
     public static int mul(int a, int b){
         return (a * b);
     }
+
+    // funtion to find remainder of a number
+    public static int remainder(int a, int b){
+        return (a % b);
+    }
+
+
 }
