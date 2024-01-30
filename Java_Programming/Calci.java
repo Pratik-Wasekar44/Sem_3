@@ -4,31 +4,29 @@ public class Calci{
         int b = 20;
         int c = add(a,b);
     }
-    //function to add two numbers
     public static int add(int a, int b){
+        //function to add two numbers
         return (a + b);
     }
-
-    //function to subtract two numbers
     public static int sub(int a, int b){
+        //function to subtract two numbers
         return (a - b);
     }
-
-
-    // function to multiply two numbers
     public static int mul(int a, int b){
+        // function to multiply two numbers
         return (a * b);
     }
-
-    // funtion to find remainder of a number
     public static int remainder(int a, int b){
+        // funtion to find remainder of a number
         return (a % b);
     }
-
-    //function to divide two numbers
     public static int div(int a, int b){
+        //function to divide two numbers
         return (a / b);
     }
-
+    public static int square(int a){
+        // function to reutrn square of number
+        return (a*a);
+    }
 
 }
