@@ -25,8 +25,12 @@ public class Calci{
         return (a / b);
     }
     public static int square(int a){
-        // function to reutrn square of number
+        // function to reutrn square of a number
         return (a*a);
+    }
+    public static int cube(int a){
+        //function to return cube of a number
+        return (a*a*a);
     }
 
 }
